@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather',serif;
+}
+
+h1 {
+  margin: 0 auto 0 auto;
+  margin-top: 10px;
+  position: relative;
+  top: 100px;
+  padding: 10px;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 400%;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+.first{
+  margin: 0 auto 0 auto;
+  position: relative;
+  top: 100px;
+  padding: 10px;
+  font-size: 1.5rem;
+  font-family:'Montserrat',sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h2{color:#66BFBF;font-size: 40px;padding-bottom: 10px;margin: 0 auto 0 auto}
+
+.profile{padding-bottom: 40px}
+.skills{padding-top: 40px}
+
+.top-container {
+  height: 600px;
+  width: 100%;
+  background-color: #E4F9F5;
+  padding-top: 10px;
+}
+
+.middle-container {
+  padding: 50px;
+  position: relative;
+  top: 1px;
+}
+
+.bottom-container {
+  padding: 20px;
+  background-color: #66BFBF
+}
+
+.web {
+  text-decoration: underline;
+}
+
+.cloud1 {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+  height: 7%;
+}
+
+.cloud2 {
+  position: absolute;
+  left: 300px;
+  top: 330px;
+  height: 7%;
+}
+
+.mountain {
+  margin: 0 auto 0 auto;
+  position: absolute;
+  right: 400px;
+  top: 325px;
+  height: 50%;
+}
+.pic{border-radius: 50%;width: 150px;height: 150px;padding-bottom: 10px}
+.computer{width: 25%;border-radius: 50%;float: left;margin-right: 20px}
+.website{width: 25%;float: right;}
+h3{color: #11999E}
+.footer-link{color:#11999E;line-height: 5;margin: 30px;font-family: 'Merriweather',serif;text-decoration: none;}
+a:hover{color: white;}
+.skill-row{width: 50%;margin: 50px auto 50px auto;text-align: left;line-height: 2}
+.contact-me{padding-bottom: 100px;padding-top: 40px}
+.contact-me-description{letter-spacing: 5px}
+.text{padding-bottom: 80px;padding-top: 30px}
+hr{width: 4%;height: 0px; border-style: dotted;border-width:7px;border-bottom: 0;border-color: lightgrey;}
+.copyright{font-size:15px;color: white;padding-bottom: 20px}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Merriweather',serif;
+  color: #f0f5f3;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
